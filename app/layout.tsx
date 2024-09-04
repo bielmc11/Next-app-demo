@@ -16,8 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={inter.className}>
-        <h2>Layout principal</h2>
+      <body className={inter.className + "bg-no-repeat bg-fixed"}>
         {children}
       </body>
     </html>

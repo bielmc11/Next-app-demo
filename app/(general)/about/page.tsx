@@ -6,8 +6,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="w-screen h-screen">
-      <span>About page</span>
-    </div>
+    <>
+      <h2 className="text-5xl font-bold tracking-wider">About page</h2>
+    </>
   );
 }
