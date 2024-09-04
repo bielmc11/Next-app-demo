@@ -1,12 +1,12 @@
 
 export const metadata = {
- title: 'SEO Title',
- description: 'SEO Title',
+ title: 'Contact page',
+ description: 'Section for contacts',
 };
 export default function ContactPage(){
     return(
         <>
-            <span>Constact AboutPage</span>
+            <span>Contact About Page</span>
         </>
     )
 }
